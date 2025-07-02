@@ -1,40 +1,45 @@
 {
   "dependencies": [
     {
-      "name": "hscript",
-      "type": "haxelib",
-      "version": "2.6.0"
+      "name": "hscript-imporved",
+      "type": "git",
+      "dir": null,
+      "ref": null,
+      "url": "https://github.com/CodenameCrew/hscript-improved"
     },
     {
       "name": "lime",
-      "type": "git",
-      "dir": null,
-      "ref": null,
-      "url": "https://github.com/th2l-devs/lime"
+      "type": "haxelib",
+      "version": "8.1.2"
     },
     {
       "name": "openfl",
-      "type": "git",
-      "dir": null,
-      "ref": null,
-      "url": "https://github.com/th2l-devs/openfl"
+      "type": "haxelib",
+      "version": "9.2.2"
     },
     {
       "name": "flixel",
       "type": "git",
       "dir": null,
       "ref": null,
-      "url": "https://github.com/HomuHomu833/flixel"
+      "url": "https://github.com/CodenameCrew/cne-flixel"
     },
     {
       "name": "flixel-addons",
-      "type": "haxelib",
-      "version": "3.3.2"
+      "type": "git",
+      "dir": null,
+      "ref": null,
+      "url": "https://github.com/CodenameCrew/cne-flixel-addons"
     },
     {
       "name": "flixel-tools",
       "type": "haxelib",
       "version": "1.5.1"
+    },
+    {
+      "name": "hxvlc",
+      "type": "haxelib",
+      "version": "1.9.3"
     },
     {
       "name": "flixel-ui",
@@ -92,7 +97,7 @@
       "type": "git",
       "dir": null,
       "ref": "master",
-      "url": "https://github.com/Snirozu/away3d"
+      "url": "https://github.com/CodenameCrew/away3d"
     },
     {
       "name": "json2object",
@@ -151,6 +156,21 @@
       "dir": null,
       "ref": null,
       "url": "https://github.com/th2l-devs/hxvlc"
+    },
+    {
+      "name": "format",
+      "type": "haxelib",
+      "version": "3.8.0"
+    },
+    {
+      "name": "markdown",
+      "type": "haxelib",
+      "version": "1.1.3"
+    },
+    {
+      "name": "nape-haxe4",
+      "type": "haxelib",
+      "version": "2.0.22"
     }
   ]
 }
