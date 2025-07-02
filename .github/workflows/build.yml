@@ -55,6 +55,7 @@ jobs:
           haxelib run hmm install --quiet
           haxelib run hmm reinstall 
           haxelib --global update haxelib
+          haxelib run lime rebuild cpp
 
       - name: Configure Android
         if: inputs.name == 'Android'
@@ -65,9 +66,7 @@ jobs:
           haxelib run lime config ANDROID_SETUP true
 
       - name: Compile
-        run:
-          haxelib run lime rebuild cpp
-          haxelib run lime build ${{ inputs.buildArgs }}
+        run: haxelib run lime build ${{ inputs.buildArgs }}
 
       - name: Make IPA
         if: inputs.name == 'iOS'
