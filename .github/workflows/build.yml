@@ -21,7 +21,7 @@ on:
 
 env:
   HAXE_VERSION: 4.3.7
-  PROJECT_NAME: PsychOnline
+  PROJECT_NAME: CodenameEngine
 
 jobs:
   build:
