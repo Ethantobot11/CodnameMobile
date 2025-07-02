@@ -6,8 +6,8 @@ permissions:
   discussions: write
 
 env:
-  PROJECT_NAME: PsychOnline
-  REPO_PATH: Ethantobot11/PsychOnline-Recreation
+  PROJECT_NAME: CodenameEngine
+  REPO_PATH: Ethantobot11/CodnameMobile
 
 jobs:
   get-commit-hash:
