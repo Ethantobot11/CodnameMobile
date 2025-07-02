@@ -54,6 +54,7 @@ jobs:
           haxelib install hmm --quiet
           haxelib run hmm install --quiet
           haxelib run hmm reinstall 
+          haxelib --global update haxelib
 
       - name: Configure Android
         if: inputs.name == 'Android'
