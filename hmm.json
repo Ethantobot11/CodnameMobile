@@ -171,6 +171,13 @@
       "name": "nape-haxe4",
       "type": "haxelib",
       "version": "2.0.22"
+    },
+    {
+      "name": "haxe",
+      "type": "git",
+      "dir": null,
+      "ref": null,
+      "url": "https://github.com/HaxeFoundation/haxe"
     }
   ]
 }
